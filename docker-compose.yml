@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  helium-validator-testnet.package.avado.eth:
+    image: 'helium-validator-testnet.package.avado.eth:0.0.1'
+    build:
+      context: ./build
+      args:
+        VERSION: somevalue
+    environment:
+      - EXTRA_OPTS=
+    volumes:
+      - 'data:/var/data'
+    ports:
+      - '2154:2154'
+volumes:
+  data: {}

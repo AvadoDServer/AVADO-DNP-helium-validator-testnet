@@ -1,0 +1,20 @@
+{
+  "name": "helium-validator-testnet.package.avado.eth",
+  "version": "0.0.1",
+  "title": "Helium Validator (testnet)",
+  "description": "This is a validator for the Helium network (testnet)",
+  "avatar": "/ipfs/QmSY9H6dLSXiQrKx1WxZboMfT4BEE8Qec6y3Hdt5UfuXRu",
+  "type": "service",
+  "autoupdate": true,
+  "image": {
+    "path": "helium-validator-testnet.package.avado.eth_0.0.1.tar.xz",
+    "hash": "/ipfs/QmTNtwQjhy8qx2aRHr8Qw49AbLo5rSHpommdUCw4Wov1Qo",
+    "size": 74360488,
+    "restart": "always"
+  },
+  "author": "AVADO",
+  "license": "(c)",
+  "dependencies": {},
+  "links": {},
+  "builddate": "2021-03-20T22:17:50.196Z"
+}
