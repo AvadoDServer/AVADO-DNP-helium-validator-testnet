@@ -1,0 +1,10 @@
+version: '3.4'
+services:
+    helium:
+        image: 'avado-helium:1.5.4'
+        container_name: 'helium'
+        volumes:
+            - './data:/var/data'
+        ports:
+            - '2154:2154'
+        restart: 'always'

@@ -1,1 +1,8 @@
-build_*
+/build_*
+/docker-test
+
+/image-test/*
+!/image-test/
+!/image-test/Dockerfile
+!/image-test/build.sh
+!/image-test/docker-compose.yml
